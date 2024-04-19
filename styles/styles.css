@@ -1,0 +1,198 @@
+ /*Default Text Styling*/
+body{ 
+    background-image: url(/images/IMG_1370.JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+
+ h1{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration:none;
+ }
+
+h2{
+    font-size:30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+ p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/*Navbar*/
+.menu{
+    color:white;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color:rgba(26, 26, 26, 0.669);
+    row-gap:30px;
+    padding: 18px;
+
+}
+
+ul.menu{
+    align-items:center;
+}
+
+
+li.logo{text-decoration: none;}
+.logo{
+    padding:10px;
+    font-size:25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration:none;
+    color:white;
+    background-color: none;
+    transition: background-color 2s;}
+
+.logo:hover{
+    padding:10px;
+    font-size:25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration:none;
+    color:white;
+    background-color:grey;
+}
+.logo a:visited{
+    padding:10px;
+    font-size:25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration:none;
+    color:white;
+}
+
+a.link:visited{
+    padding:10px;
+    font-size:14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration:none;
+    color:white;
+}
+
+a.link{
+    padding:10px;
+    font-size:14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration:none;
+    color:white;
+    background-color: none;
+    transition: background-color 2s;
+}
+
+a.link:hover{padding:10px;
+    font-size:14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration:none;
+    color:white;
+    background-color:grey;
+}   
+
+
+.links-container{
+    width: 2/5vw;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    row-gap:30px;
+}
+
+.link{
+    padding:10px;
+    flex-grow:2;
+}
+
+.icon-buttons{
+    display:flex;
+    flex-direction:row;
+    row-gap:30px;
+    padding:10px;
+}
+
+.icon{
+    width:30px;
+    height:30px;
+}
+
+img.icon{
+    padding:10px;
+}
+
+/*Main content of site*/
+.main-content{
+
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    padding-right:45%;
+    grid-template-columns: auto;
+
+}
+
+.main-content h2{
+    font-size:60px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 700;
+    font-style: Normal;
+    line-height: 40px;
+    letter-spacing:3px;
+    color:white;
+}
+
+
+/*Footer Grid*/
+
+.footer-grid{
+    display:grid;
+    grid-template-columns: auto;
+    background-color:grey;
+}

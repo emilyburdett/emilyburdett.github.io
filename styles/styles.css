@@ -1,53 +1,61 @@
+ 
+ 
  /*Default Text Styling*/
-body{ 
+body
+{ 
     background-image: url(/images/IMG_1370.JPG);
     background-size:cover;
     background-repeat: no-repeat;
-
 }
 
-
- h1{
+h1
+{
     font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 500;
     text-decoration:none;
- }
+}
 
-h2{
+h2
+{
     font-size:30px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
-h3{
+h3
+{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
-h4{
+h4
+{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
-h5{
+h5
+{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
- p{
+p
+{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     
 }
 
-li{
+li
+{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -55,7 +63,8 @@ li{
 
 
 /*Navbar*/
-.menu{
+.menu
+{
     color:white;
     display:flex;
     flex-direction: row;
@@ -66,13 +75,19 @@ li{
 
 }
 
-ul.menu{
+ul.menu
+{
     align-items:center;
 }
 
 
-li.logo{text-decoration: none;}
-.logo{
+li.logo
+{
+    text-decoration: none;
+}
+
+.logo
+{
     padding:10px;
     font-size:25px;
     font-family: "Poppins", sans-serif;
@@ -81,9 +96,11 @@ li.logo{text-decoration: none;}
     text-decoration:none;
     color:white;
     background-color: none;
-    transition: background-color 2s;}
+    transition: background-color 2s;
+}
 
-.logo:hover{
+.logo:hover
+{
     padding:10px;
     font-size:25px;
     font-family: "Poppins", sans-serif;
@@ -93,7 +110,9 @@ li.logo{text-decoration: none;}
     color:white;
     background-color:grey;
 }
-.logo a:visited{
+
+.logo a:visited
+{
     padding:10px;
     font-size:25px;
     font-family: "Poppins", sans-serif;
@@ -103,7 +122,8 @@ li.logo{text-decoration: none;}
     color:white;
 }
 
-a.link:visited{
+a.link:visited
+{
     padding:10px;
     font-size:14px;
     font-family: "Poppins", sans-serif;
@@ -113,7 +133,8 @@ a.link:visited{
     color:white;
 }
 
-a.link{
+a.link
+{
     padding:10px;
     font-size:14px;
     font-family: "Poppins", sans-serif;
@@ -125,7 +146,9 @@ a.link{
     transition: background-color 2s;
 }
 
-a.link:hover{padding:10px;
+a.link:hover
+{
+    padding:10px;
     font-size:14px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -135,8 +158,8 @@ a.link:hover{padding:10px;
     background-color:grey;
 }   
 
-
-.links-container{
+.links-container
+{
     width: 2/5vw;
     display:flex;
     flex-direction:row;
@@ -144,30 +167,34 @@ a.link:hover{padding:10px;
     row-gap:30px;
 }
 
-.link{
+.link
+{
     padding:10px;
     flex-grow:2;
 }
 
-.icon-buttons{
+.icon-buttons
+{
     display:flex;
     flex-direction:row;
     row-gap:30px;
     padding:10px;
 }
 
-.icon{
+.icon
+{
     width:30px;
     height:30px;
 }
 
-img.icon{
+img.icon
+{
     padding:10px;
 }
 
 /*Main content of site*/
-.main-content{
-
+.main-content
+{
     display:grid;
     justify-content: center;
     align-items: center;
@@ -176,10 +203,10 @@ img.icon{
     padding-bottom: 20%;
     padding-right:45%;
     grid-template-columns: auto;
-
 }
 
-.main-content h2{
+.main-content h2
+{
     font-size:50px;
     font-family: "Red Hat Display", sans-serif;
     font-weight: 700;
@@ -188,17 +215,17 @@ img.icon{
     color:white;
 }
 
-.main-content p{
-    font-size:20px;
+.main-content p
+{
+    font-size:18px;
     font-family: 'Now', sans-serif;
     font-style: Normal;
     color:white;
 }
 
-
 /*Footer Grid*/
-
-.footer-grid{
+.footer-grid
+{
     display:grid;
     grid-template-columns: auto;
     background-color:grey;

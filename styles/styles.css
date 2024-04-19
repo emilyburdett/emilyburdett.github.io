@@ -10,6 +10,7 @@ body
 
 h1
 {
+    /*h1 is for the main title on the splash page*/
     font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -20,14 +21,17 @@ h1
 
 h2
 {
+    /*h2 is for the logo.*/
     font-size:30px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
+
 h3
 {
+    /*h3 is for the footer headers.*/
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -230,9 +234,15 @@ img.icon
 }
 
 /*Footer Grid*/
-.footer-grid
+.footer-container
 {
-    display:grid;
-    grid-template-columns: auto;
-    background-color:grey;
+    color:white;
+}
+
+.footer-main{
+    color:white;
+}
+
+.footer-bottom{
+    color:white;
 }

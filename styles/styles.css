@@ -62,6 +62,10 @@ li
     font-style: normal;
 }
 
+a
+{
+    text-decoration: none;
+}
 
 /*Navbar*/
 .menu
